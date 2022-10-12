@@ -39,5 +39,6 @@
    keys.forEach(key => key.addEventListener('transitionend',removeTransition));  
    ```
 
-   
+* 知识点
+  * ’data-‘ 属性：可以由用户自定义，方便绑定，本项目中给<audio>和<div>添加了’data-key‘
 
